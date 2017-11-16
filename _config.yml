@@ -1,0 +1,28 @@
+name: Ashbright
+markdown: kramdown
+highlighter: rouge
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+
+# Setup
+title:               Ashbright
+description:         Strategic communication
+tagline:             Strategic communication
+url:                 https://www.ashbright.com
+logo:                /images/LOGO-RGB.png
+tel:                 +971502206916
+email:               ta@ashbright.com
+
+collections:
+  situations:
+    output: true
+    permalink: /:collection/:name
+
+plugins:
+  - jekyll-seo-tag
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/LOGO-RGB.png
