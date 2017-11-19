@@ -1,21 +1,16 @@
-name: Ashbright
+name: WorldSkills Asia
 markdown: kramdown
 highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
 # Setup
-title:               Ashbright
-description:         Strategic communication
-tagline:             Strategic communication
-url:                 https://www.ashbright.com
+title:               WorldSkills Asia
+description:         Improving our region through the power of skills
+tagline:             Improving our region through the power of skills
+url:
 logo:                /images/LOGO-RGB.png
-tel:                 +971502206916
-email:               ta@ashbright.com
-
-collections:
-  situations:
-    output: true
-    permalink: /:collection/:name
+tel:
+email:               test@worldskillsasia.com
 
 plugins:
   - jekyll-seo-tag

@@ -1,19 +1,18 @@
-<footer class="bg-ashblue pt2 pb2 pb5-l" id="fadein-backtotop">
-  <div class = "bt b--ashdarkgrey tc tl-l pt4-l">
-  <div id="contact" class="mw6 mw7-ns center pt4 tc fr-l pr5-l">
-    <a class="ash-sans f5 f3-ns link dim ph3 ph4-l pv2 mb4 mr3-ns dib white bg-black ttu tracked" href="mailto:{{ site.email }}">Get in touch</a>
+<footer class="relative">
+  <div class="footer-image fr w5"></div>
 
-    <a class="ash-sans f5 f3-ns link dim ph3 ph4-l pv2 mb4 ml3-ns dib white bg-ashdarkgrey ttu tracked" href="tel:{{ site.tel }}">{{ site.tel }}</a>
+<div class="bg-grey pt2 pb2 pb5-l relative cr">
 
-    <p class="f4 lh-copy ttu pb4 pb0-l ph2 ph0-ns tr-l tracked ash-sans">ASHBRIGHT DWC-LLC, PO Box 712472, Dubai, UAE</p>
-  </div>
-    <img class="mw4-5 mb4 mb0-l mt2-l ml1-l" src="{{ site.baseurl }}/images/LOGO-RGB.png" alt="Ashbright" >
-  </div>
+  <img class="absolute top-0 left-0 h-100 w-auto z-1" src="{{ site.baseurl }}/images/footer-cube.svg" alt="WorldSkills Cube" >
 
-  <a href="#" class="back-to-top fixed bottom-1 right-1" data-aos="fade-left"
-     data-aos-anchor="#fadein-backtotop">
-    <img src="{{ site.baseurl }}/images/arrow.svg" class="di w2 w3-l" alt="Scroll to top button">
-  </a>
+ <ul class="tr cr mb4 mh2 ph2">
+    <li class="dib mh1"><a href="https://www.youtube.com/WorldSkillsTV" target="_blank" rel="noopener"><img alt="YouTube" src="/images/icon-youtube-white.svg" width="24" height="24" style="" rel=""></a></li>
+    <li class="dib mh1"><a href="https://www.instagram.com/worldskillsad/" target="_blank" rel="noopener"><img alt="Instagram" src="/images/icon-instagram-white.svg" width="24" height="24"></a></li>
+    <li class="dib mh1"><a href="https://www.facebook.com/worldskillsad/" target="_blank" rel="noopener"><img alt="Facebook" src="/images/icon-facebook-white.svg" width="24" height="24"></a></li>
+    <li class="dib mh1"><a href="https://twitter.com/WorldSkillsAD" target="_blank" rel="noopener"><img alt="Twitter" src="/images/icon-twitter-white.svg" width="24" height="24"></a></li>
+    <li class="dib mh1"><a href="https://www.flickr.com/photos/worldskills/collections" target="_blank" rel="noopener"><img alt="Flickr" src="/images/icon-flickr-white.svg" width="24" height="24"></a></li>
+  </ul>
+
 </footer>
 
 <script>
@@ -26,20 +25,6 @@ document.querySelector('.about').addEventListener('click', function () {
   scrollIt(document.querySelector('#about'), 300, 'easeOutQuad');
 });
 
-// Scroll to situations
-document.querySelector('.situations').addEventListener('click', function () {
-  scrollIt(document.querySelector('#situations'), 300, 'easeOutQuad');
-});
-
-// Scroll to contact
-document.querySelector('.contact').addEventListener('click', function () {
-  scrollIt(document.querySelector('#contact'), 300, 'easeOutQuad');
-});
-
-// Scroll to top
-document.querySelector('.back-to-top').addEventListener('click', function () {
-  scrollIt(document.querySelector('#top'), 300, 'easeOutQuad');
-});
 
 // Animation scrolling
 

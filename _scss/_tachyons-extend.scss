@@ -1,16 +1,15 @@
 //font-family
 body {
-  font-family: 'PT Serif', Georgia, Times, Times New Roman, serif;
+  font-family: 'Istok Web', Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h1,.h1,
 h2,.h2,
-h3,
-.h3,
-h4,
-.h4,
-.ash-sans {
-    font-family: 'Oswald', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+h3,.h3,
+h4,.h4,
+.ws-sans {
+    font-family: 'Istok Web', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 p {
@@ -61,23 +60,23 @@ h4,.f4 { font-size: 1rem; }
 
 
 //_border-colors
-.b--ashblue { border-color: $link-color; }
-.b--ashgrey { border-color: $border-color; }
-.b--ashdarkgrey { border-color: $body-color; }
+.b--primary { border-color: $primary-color; }
+.b--secondary { border-color: $primary-color; }
+.b--grey { border-color: $secondary-color; }
 
 //_skins
-.ashblue { color: $link-color; }
-.ashgrey { color: $border-color; }
-.ashdarkgrey { color: $body-color; }
+.primary { color: $primary-color; }
+.secondary { color: $secondary-color; }
+.grey { color: $body-color; }
 
-.bg-ashblue { background-color: $link-color; }
-.bg-ashgrey { background-color: $border-color; }
-.bg-ashdarkgrey { background-color: $body-color; }
+.bg-primary { background-color: $primary-color; }
+.bg-secondary { background-color: $secondary-color; }
+.bg-grey { background-color: $body-color; }
 
 //skins-pseudo
 
-.hover-ashblue:hover { color: $link-color; }
-.hover-ashblue:focus { color: $link-color; }
+.hover-primary:hover { color: $primary-color; }
+.hover-primary:focus { color: $primary-color; }
 
 //_typography
 html,
@@ -93,17 +92,11 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 
-h1 {
-  font-weight: 600;
-}
-
 h2 {
-  font-weight: 600;
   letter-spacing: 0.02em;
 }
 
 h3 {
-  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.0625em;
 }
@@ -123,7 +116,16 @@ h3 {
 }
 
 p a {
-  @extend .ashblue;
+  @extend .primary;
   @extend .dim;
 }
 
+.footer-image::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 20%;
+    background: url(/images/skyline_grey_noline.svg) no-repeat;
+    background-size: cover;
+}

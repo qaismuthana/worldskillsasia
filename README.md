@@ -1,7 +1,13 @@
+## Setup
+1. Favicons / icons - https://realfavicongenerator.net
+2. Sitemaps
+3. Google Verification
+4. Fonts
+
+
 ## Usage
 
 **development mode**
-
 This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
 
 ```shell
@@ -67,7 +73,6 @@ https://www.shareicon.net/arrow-up-app-ui-essential-884106
 - Image gulp process workflow
 - Accessibility: http://a11yproject.com/checklist.html
 - Get permalinks working locally - no .html
-
 
 
 
