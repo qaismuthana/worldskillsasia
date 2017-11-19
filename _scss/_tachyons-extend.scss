@@ -146,3 +146,13 @@ p a {
     background: url(polina.jpg) no-repeat;
     background-size: cover;
 }
+
+.bgimage {
+  background-image: url(/images/skills-header.jpg);
+}
+
+@media #{$breakpoint-not-small}{
+  .bgimage {
+    background-image: none;
+  }
+}
