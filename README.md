@@ -3,6 +3,7 @@
 2. Sitemaps
 3. Google Verification
 4. Fonts
+5. Critical CSS
 
 
 ## Usage

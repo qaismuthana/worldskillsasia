@@ -23,7 +23,8 @@ html {
   line-height: $root-line-height;
 }
 
-.f-head { font-size: 2.5rem; }
+.f-super-head { font-size: 4rem; }
+.f-head { font-size: 3rem; }
 .f-sub { font-size: 2rem; }
 
 h1,.f1 { font-size: 2rem; }
@@ -32,6 +33,7 @@ h3,.f3 { font-size: 1.25rem; }
 h4,.f4 { font-size: 1rem; }
 
 @media #{$breakpoint-not-small}{
+  .f-super-head-ns { font-size: 4rem; }
   .f-head-ns { font-size: 3rem; }
   .f-sub-ns { font-size: 2rem; }
   .f1-ns { font-size: 2rem; }
@@ -41,6 +43,7 @@ h4,.f4 { font-size: 1rem; }
 }
 
 @media #{$breakpoint-medium} {
+  .f-super-head-m { font-size: 4rem; }
   .f-head-m { font-size: 3rem; }
   .f-sub-m { font-size: 2rem; }
   .f1-m { font-size: 2rem; }
@@ -50,6 +53,7 @@ h4,.f4 { font-size: 1rem; }
 }
 
 @media #{$breakpoint-large} {
+  .f-super-head-l { font-size: 4rem; }
   .f-head-l { font-size: 3rem; }
   .f-sub-l { font-size: 2rem; }
   .f1-l { font-size: 2rem; }
@@ -155,4 +159,8 @@ p a {
   .bgimage {
     background-image: none;
   }
+}
+
+.flex-1 {
+  flex: 1;
 }

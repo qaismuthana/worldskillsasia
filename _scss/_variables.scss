@@ -7,3 +7,6 @@ $secondary-color: #773E90;
 $grey-color: #575756;
 
 
+$breakpoint-not-small: 'screen and (min-width: 30em)' !default;
+$breakpoint-medium: 'screen and (min-width: 30em) and (max-width: 50em)' !default;
+$breakpoint-large: 'screen and (min-width: 50em)' !default;

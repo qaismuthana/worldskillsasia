@@ -1,11 +1,11 @@
-<footer class="relative">
-  <div class="footer-image fr w5"></div>
+<footer class="relative bg-white">
+  <div class="footer-image fr w5 mr4-l"></div>
 
 <div class="bg-grey pt2 pb2 pb5-l relative cr">
 
   <img class="absolute top-0 left-0 h-100 w-auto z-1" src="{{ site.baseurl }}/images/footer-cube.svg" alt="WorldSkills Cube" >
 
- <ul class="tr cr mb4 mh2 ph2">
+ <ul class="tr cr mb4 mh2 ph2 mr4-l">
     <li class="dib mh1"><a href="https://www.youtube.com/WorldSkillsTV" target="_blank" rel="noopener"><img alt="YouTube" src="/images/icon-youtube-white.svg" width="24" height="24" style="" rel=""></a></li>
     <li class="dib mh1"><a href="https://www.instagram.com/worldskillsad/" target="_blank" rel="noopener"><img alt="Instagram" src="/images/icon-instagram-white.svg" width="24" height="24"></a></li>
     <li class="dib mh1"><a href="https://www.facebook.com/worldskillsad/" target="_blank" rel="noopener"><img alt="Facebook" src="/images/icon-facebook-white.svg" width="24" height="24"></a></li>
@@ -23,6 +23,16 @@
 // Scroll to about
 document.querySelector('.about').addEventListener('click', function () {
   scrollIt(document.querySelector('#about'), 300, 'easeOutQuad');
+});
+
+// Scroll to sectors
+document.querySelector('.sectors').addEventListener('click', function () {
+  scrollIt(document.querySelector('#sectors'), 300, 'easeOutQuad');
+});
+
+// Scroll to contact
+document.querySelector('.contact').addEventListener('click', function () {
+  scrollIt(document.querySelector('#contact'), 300, 'easeOutQuad');
 });
 
 
