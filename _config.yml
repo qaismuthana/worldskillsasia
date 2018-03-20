@@ -8,6 +8,7 @@ title:               WorldSkills Asia
 description:         Improving our region through the power of skills
 tagline:             Improving our region through the power of skills
 url:
+baseurl: "worldskillsasia"
 logo:                /images/LOGO-RGB.png
 tel:
 email:               test@worldskillsasia.com
